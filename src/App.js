@@ -1,5 +1,8 @@
 import "./App.css";
 import styled from "styled-components";
+import { Title } from "./Styles/StyledComps";
+import { MarkedInput } from "./components/MarkedInput";
+import { Result } from "./components/Result";
 
 const AppContainer = styled.div`
   width: 100%;
@@ -15,19 +18,14 @@ const EditorContainer = styled.div`
   display: flex;
 `;
 
-const Title = styled.div`
-  font-size: 25px;
-  font-weight: 700px;
-  font-famiy: "Lato", sans-serif;
-  margin-bottom: 1em;
-`;
-function App() {
+export const App = () => {
   return (
     <AppContainer>
-      <Title>Hello</Title>
-      <EditorContainer />
+      <Title>Markdown Editor</Title>
+      <EditorContainer>
+        <MarkedInput />
+        <Result />
+      </EditorContainer>
     </AppContainer>
   );
-}
-
-export default App;
+};
