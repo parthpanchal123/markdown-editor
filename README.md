@@ -1,3 +1,13 @@
+# Markdown editor with React
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c631bc8-6a93-4d29-912d-308e364b46ca/deploy-status)](https://app.netlify.com/sites/quick-react-markdown/deploys)
+
+- This is a simple react markdown editor built with Context API . As simple as that 😂
+
+## Demo
+![](https://github.com/parthpanchal123/markdown-editor/blob/master/app_demo.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
