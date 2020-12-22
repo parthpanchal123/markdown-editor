@@ -16,12 +16,11 @@ export const Title = styled.div`
 `;
 
 export const TextArea = styled.textarea`
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   resize: none;
   border: none;
   outline: none;
   font-size: 17px;
+  font-family: "Poppins";
 `;
